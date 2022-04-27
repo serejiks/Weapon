@@ -1,8 +1,8 @@
-package java.Firearms;
+package java.firearms;
 
-import java.Weapon;
+import java.Attacker;
 
-public abstract class Firearms extends Weapon {
+public abstract class Firearms implements Attacker {
     private int countBulletsInMagazine;
     private int countBulletsNow;
     private int countBulletsInAmmunition;

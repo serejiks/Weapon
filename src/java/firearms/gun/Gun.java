@@ -1,7 +1,7 @@
-package java.Firearms.Gun;
+package java.firearms.gun;
 
-import java.Firearms.Firearms;
-import java.Firearms.SingleShooting;
+import java.firearms.Firearms;
+import java.firearms.SingleShooting;
 
 public abstract class Gun extends Firearms implements SingleShooting {
 
