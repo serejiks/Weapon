@@ -1,4 +1,4 @@
-package Grenades;
+package java.Grenades;
 
 public class Flash extends Grenades{
 }
