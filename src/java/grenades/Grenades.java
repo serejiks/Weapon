@@ -1,8 +1,14 @@
 package java.grenades;
-import java.Attacker;
 
-public abstract class Grenades implements Attacker {
-    public void attack() {
+import java.weapon.Weapon;
+
+public abstract class Grenades implements Throwing {
+
+    @Override
+    public void throwingGrenade() {
         // Бросок гранаты.
+        // soundExplosion()
     }
+
+    public abstract void soundExplosion();
 }
